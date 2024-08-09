@@ -1,0 +1,33 @@
+# Ignore node_modules directory
+node_modules
+
+# Ignore npm debug log
+npm-debug.log
+
+# Ignore Dockerfile and .dockerignore itself
+Dockerfile
+.dockerignore
+
+# Ignore local environment variables file
+.env
+
+# Ignore any logs
+logs
+*.log
+
+# Ignore any temporary files or directories
+tmp
+temp
+*.tmp
+*.swp
+
+# Ignore IDE specific files
+.vscode
+.idea
+
+# Ignore test coverage directory
+coverage
+
+# Ignore specific local configurations
+*.local
+*.test.*
